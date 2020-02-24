@@ -42,7 +42,7 @@ Syntax
 Examples
 --------
 
-In this example, the first version is the default and will render in all engines. The first version will be commented out by all engines as well. However, in `python-markdown`, with this extension, the first version will be removed and the second version uncommented if the `superscript-enabled` condition is met.
+In this example, the first version is the default and will render in all engines. The second version will be commented out by all engines as well. However, in `python-markdown`, with this extension, the first version will be removed and the second version uncommented if the `superscript-enabled` condition is met.
 
 ```html
 <!-- #pymd-remove-if:superscript-enabled -->
