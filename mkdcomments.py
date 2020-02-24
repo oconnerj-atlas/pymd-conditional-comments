@@ -1,12 +1,13 @@
+# TODO: actually make this stuff work
+
 import re
 from markdown.preprocessors import Preprocessor
 from markdown.postprocessors import Postprocessor
 from markdown.extensions import Extension
 
-
 PREFIX_PLACEHOLDER = "OMtxTKldR2f1LZ5Q"
 
-
+# TODO: rename this to something useful - also replace it in the examples, I used "Extension" which won't work
 class CommentsExtension(Extension):
     def extendMarkdown(self, md, md_globals):
         md.registerExtension(self)

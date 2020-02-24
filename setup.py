@@ -1,7 +1,8 @@
 import setuptools
 
 setuptools.setup(
-    name='python-markdown-comments',
+    name='pymd-conditional-comments',
     install_requires=['markdown'],
-    py_modules=['mkdcomments']
+    # TODO: make sure this below name matches the name of the .py file later on when work actually begins
+    py_modules=['pymd-conditional-comments']
 )

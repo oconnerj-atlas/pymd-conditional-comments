@@ -2,7 +2,7 @@ let
   pkgs = import <nixpkgs> {};
 in
 pkgs.mkShell {
-  pname = "python-markdown-comments";
+  pname = "pymd-conditional-comments";
   buildInputs = [
     pkgs.pythonPackages.markdown
   ];
