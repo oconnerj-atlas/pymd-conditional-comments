@@ -74,8 +74,8 @@ TODO: improve this example, make sure to provide a good multiline example too, s
 u'<p>blah blah blah</p>\n<p>even more text.</p>'
 ```
 
-Infrequently Asked Questions
-----------------------------
+FAQ
+---
 
 ### How can I write about the conditional comments without them being removed?
 
